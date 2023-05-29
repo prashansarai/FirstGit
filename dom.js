@@ -3,3 +3,8 @@ console.log(headerTitle);
 headerTitle.textContent = 'Hello';
 headerTitle.innerText = 'GoodBye';
 headerTitle.innerHTML = '<h3>Hello</h3>';
+var items = document.getElementsByClassName('list-group-items');
+console.log(items);
+console.log(items[1]);
+items.style.fontWeight = 'bold';
+items[3].style.backgroundColor = 'green';
